@@ -29,5 +29,7 @@ ENV PATH="/opt/venv/bin:$PATH"
 
 WORKDIR /app/server
 
+EXPOSE 8080
+
 # Run your Spring Boot app
 CMD ["java", "-jar", "app.jar"]
